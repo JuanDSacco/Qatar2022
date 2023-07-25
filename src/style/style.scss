@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.divHeader{
+    width: 1400px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(228, 14, 78),rgb(116, 27, 57));
+    color: #fff;
+    padding: 20px;
+}
+
+.divSecuHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1Header{
+    padding-left: 30px;
+}
+
+.imgBandera{
+    width: 65px;
+    height: 65px;
+}
+
+/* NavBar */
+
+.ulNavBar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 0;
+
+    .liNavBar{
+        list-style: none;
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+    }
+}
+
+/* Home */
+
+.divPrincipalHome{
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(228, 14, 78),rgb(116, 27, 57));
+}
+
+.carouselContainer{
+    height: 500px;
+    width: 800px;
+}
+
+.carousel-inner{
+    border: 5px solid #fff;
+    border-radius: 5%;
+}
+
+#imgCarousel{
+    height: 500px;
+    width: 800px;
+}
+
+.h1Header{
+    margin: 0;
+}
+
+.divParrafoHome{
+    padding: 45px 45px 30px 45px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.pHome{
+    margin: 0;
+}
+
+.divImgMascota{
+    width: 1400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgMascota{
+    width: 80px;
+    height: 100px;
+}
+
+/* D10S */
+
+.divContainerDios{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(228, 14, 78),rgb(116, 27, 57));
+}
+
+.h1Dios{
+    color: rgb(116, 27, 57);
+    padding: 40px;
+}
+
+.divContainerGaleriaMessi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Galeria Messi */ 
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 60px;
+    
+    #imgGaleriaMessi{
+        border: 3px solid #fff;
+        border-radius: 5%;
+    
+        cursor: pointer;
+        height: 150px;
+        width: 250px;
+        transition: transform 0.3s ease-in-out;
+    
+        &.enlarged {
+            transform: scale(3);
+            justify-self: center;
+            align-self: center;
+        }
+    }
+}
+
+/* Fixture */
+
+.divContainer{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(228, 14, 78),rgb(116, 27, 57));
+    color: #fff;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid #fff;
+}
+
+.divPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+
+    h1{
+        padding-bottom: 30px;
+    }
+}
+
+.imgFixture{
+    height: 50px;
+    width: 80px;
+}
+
+.divResultado{
+    font-size: 50px;
+    margin: 0;
+}
+
+.divDatos h3{
+    font-size: 22px;
+}
