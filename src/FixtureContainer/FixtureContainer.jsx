@@ -25,7 +25,7 @@ const FixtureContainer = ({bandera2,resul1,resul2,team2,estadio,fecha,instancia}
                 </div>
             </div>
             <div className='divDatos'>
-                <h3>Instancia: {instancia}</h3>
+                <h3>{instancia}</h3>
                 <h3>Estadio: {estadio}</h3>
                 <h3>{fecha}</h3>
             </div>

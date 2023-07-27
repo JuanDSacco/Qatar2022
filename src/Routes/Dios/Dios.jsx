@@ -1,5 +1,7 @@
 import React from 'react'
 import GaleriaMessi from '../../GaleriaMessi/GaleriaMessi'
+import '../../style/style.scss'
+
 
 const Dios = () => {
     return (
