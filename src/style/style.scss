@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+}
+
 /* Header */
 
 .divHeader{
-    width: 1400px;
+    width: 100%;
     text-align: center;
     background-image: linear-gradient(to right, rgb(228, 14, 78),rgb(116, 27, 57));
     color: #fff;
@@ -15,7 +19,7 @@
 }
 
 .divSecuHeader{
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
 }
@@ -36,23 +40,37 @@
     justify-content: space-around;
     padding: 30px;
     margin: 0;
-
-    .liNavBar{
+    width: 100%;
+    
+    a{
+        text-decoration: none;
         list-style: none;
+    }
+    .liNavBar{
         font-size: 28px;
         font-weight: 500;
         color: #fff;
+        list-style: none;
+        text-decoration: none;
+
     }
 }
 
 /* Home */
 
 .divPrincipalHome{
-    width: 1400px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(to right, rgb(228, 14, 78),rgb(116, 27, 57));
+
+    .imgHome{
+        width: 680px;
+        height: 380px;
+        border: 3px solid #fff;
+        border-radius: 5%;
+    }
 }
 
 .carouselContainer{
@@ -98,6 +116,7 @@
 /* D10S */
 
 .divContainerDios{
+    width: 100%;
     text-align: center;
     background-image: linear-gradient(to right, rgb(228, 14, 78),rgb(116, 27, 57));
 }
@@ -145,6 +164,7 @@
     text-align: center;
     background-image: linear-gradient(to right, rgb(228, 14, 78),rgb(116, 27, 57));
     color: #fff;
+    width: 100%;
     height: 300px;
     display: flex;
     flex-direction: column;

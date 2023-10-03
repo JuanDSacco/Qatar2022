@@ -1,9 +1,7 @@
-import './App.css'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Header from './Header/Header'
 import Home from './Routes/Home/Home'
 import Dios from './Routes/Dios/Dios'
-
 import FixtureDemo from './Routes/FixtureDemo/FixtureDemo'
 
 

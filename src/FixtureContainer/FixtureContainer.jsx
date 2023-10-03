@@ -34,3 +34,4 @@ const FixtureContainer = ({bandera2,resul1,resul2,team2,estadio,fecha,instancia}
 }
 
 export default FixtureContainer
+
