@@ -76,6 +76,10 @@ body{
 .carouselContainer{
     height: 500px;
     width: 800px;
+    h2{
+        padding-bottom: 30px;
+        color: #fff;
+    }
 }
 
 .carousel-inner{
@@ -121,41 +125,11 @@ body{
     background-image: linear-gradient(to right, rgb(228, 14, 78),rgb(116, 27, 57));
 }
 
-.h1Dios{
-    color: rgb(116, 27, 57);
-    padding: 40px;
-}
-
 .divContainerGaleriaMessi{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1100px;
-}
-
-/* Galeria Messi */ 
-
-.image-grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5,1fr);
-    grid-gap: 60px;
-    
-    #imgGaleriaMessi{
-        border: 3px solid #fff;
-        border-radius: 5%;
-    
-        cursor: pointer;
-        height: 150px;
-        width: 250px;
-        transition: transform 0.3s ease-in-out;
-    
-        &.enlarged {
-            transform: scale(3);
-            justify-self: center;
-            align-self: center;
-        }
-    }
+    height: 700px;
 }
 
 /* Fixture */

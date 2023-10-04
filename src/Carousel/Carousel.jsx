@@ -23,6 +23,7 @@ import Img18 from '../assets/AssetsMessi/18.jpg'
 const Carousel = () => {
     return (
         <div className='carouselContainer'>
+            <h2>Carousel L10nel Andrés Messi</h2>
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
